@@ -1,0 +1,42 @@
+<ion-view title="Progress" id="page1" style="background-color:#CCCCCC;">
+  <ion-content padding="true" class="has-header">
+    <div>
+      <style>
+        .column {
+      float: left;
+      width: 50%;
+    }
+    
+    /* Clear floats after the columns */
+    .row:after {
+      content: "";
+      display: table;
+      clear: both;
+    }
+      </style>
+
+      <div class="row">
+        <div class="column" align="center">
+          <h1>
+            Day 4
+          </h1>
+          <p>It always seems impossible until it's done.</p>
+        </div>
+        <div class="column"></div>
+      </div>
+    </div>
+    <div>
+      <script src="//cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.js"></script>
+      <link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/dygraph/2.1.0/dygraph.min.css">
+
+      <div id="weeklyView" style="width:90%; height:200px">
+      </div>
+      <script type="text/javascript">
+        g3 = new Dygraph(
+          document.getElementById("weeklyView"),
+          "user.csv", {title: "This Week"}
+          );
+      </script>
+    </div>
+  </ion-content>
+</ion-view>
