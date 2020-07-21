@@ -49,7 +49,6 @@ angular.module('app.routes', [])
     url: '/page5',
     templateUrl: 'templates/home.html',
     controller: 'homeCtrl'
-    }
   })
 
 $urlRouterProvider.otherwise('/page5')
