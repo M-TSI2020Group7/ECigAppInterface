@@ -47,15 +47,12 @@ angular.module('app.routes', [])
 
   .state('menu.home', {
     url: '/page5',
-    views: {
-      'side-menu21': {
-        templateUrl: 'templates/home.html',
-        controller: 'homeCtrl'
-      }
+    templateUrl: 'templates/home.html',
+    controller: 'homeCtrl'
     }
   })
 
-$urlRouterProvider.otherwise('/side-menu21/page5')
+$urlRouterProvider.otherwise('/page5')
 
 
 });
