@@ -45,13 +45,17 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('home', {
+  .state('menu.home', {
     url: '/page5',
-    templateUrl: 'templates/home.html',
-    controller: 'homeCtrl'
+    views: {
+      'side-menu21': {
+        templateUrl: 'templates/home.html',
+        controller: 'homeCtrl'
+      }
+    }
   })
 
-$urlRouterProvider.otherwise('/page5')
+$urlRouterProvider.otherwise('/side-menu21/page5')
 
 
 });
