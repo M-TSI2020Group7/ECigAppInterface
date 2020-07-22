@@ -1,13 +1,12 @@
 /* Empty. Add your own CSS if you like */
-<<<<<<< Updated upstream
-=======
 .bar-stable-theme {
     border-color: #b2b2b200;
     background-color: lightblue;
     color: #444444; }
+.bar-stable-theme .title {
+    color: #444; }
 .item-icon-right-theme .icon{
     border-color: #b2b2b200;
     background-color: lightblue;
     color: #444; 
 }
->>>>>>> Stashed changes
