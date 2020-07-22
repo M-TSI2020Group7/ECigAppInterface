@@ -18,7 +18,8 @@
   },
   "dependencies": {
     "@capacitor/android": "^2.3.0",
-    "@capacitor/core": "2.3.0"
+    "@capacitor/core": "2.3.0",
+    "@ionic-native/firebase": "^5.27.0"
   },
   "cordova": {
     "plugins": {

@@ -45,7 +45,7 @@ angular.module('app.routes', [])
     }
   })
 
-  .state('menu.home', {
+  .state('home', {
     url: '/page5',
     templateUrl: 'templates/home.html',
     controller: 'homeCtrl'
