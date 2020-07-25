@@ -1,15 +1,5 @@
 {
-  "name": "ionic-app-base",
-  "integrations": {
-    "capacitor": {},
-    "cordova": {}
-  },
-  "type": "ionic1",
-  "watchPatterns": [
-    "scss/**/*",
-    "www/**/*",
-    "!www/lib/**/*",
-    "!www/**/*.map"
-  ],
-  "id": "a43f7658"
+  "name": "liveclear",
+  "integrations": {},
+  "type": "ionic-angular"
 }
